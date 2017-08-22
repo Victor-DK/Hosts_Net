@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Hosts Net">
+        <menu>
+            <item
+                android:id="@+id/menu_nav_change"
+                android:title="一键hosts" />
+            <item
+                android:id="@+id/menu_nav_save"
+                android:title="备份hosts" />
+        </menu>
+    </item>
+
+    <item android:title="其他">
+        <menu>
+            <item
+                android:id="@+id/menu_nav_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/menu_nav_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

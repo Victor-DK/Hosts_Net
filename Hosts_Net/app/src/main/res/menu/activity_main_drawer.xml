@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_nav_oneClick"
+            android:title="一键hosts" />
+        <item
+            android:id="@+id/menu_nav_save"
+            android:title="备份hosts" />
+    </group>
+
+    <item android:title="其他">
+        <menu>
+            <item
+                android:id="@+id/menu_nav_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/menu_nav_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
